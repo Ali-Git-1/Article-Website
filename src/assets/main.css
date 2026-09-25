@@ -1,0 +1,40 @@
+/* src/assets/main.css یا src/style.css */
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100% !important;
+  min-height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden;
+  font-family: 'Vazirmatn', sans-serif !important;
+  background-color: #f8f9fa;
+  direction: rtl;
+  text-align: right;
+}
+
+#app {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important; /* ریست کردن گرید پیش‌فرض vite */
+}
+
+/* کارت مقالات */
+.article-card {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+}
