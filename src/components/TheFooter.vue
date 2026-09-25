@@ -12,8 +12,8 @@
             <h5 class="fw-bold mb-0 text-white tracking-wide">متن کامل</h5>
           </div>
           <p class="text-secondary small lh-lg mb-3">
-            پلتفرم جامع سبک زندگی، ارتقای فردی . ما آگاهی  را در
-            کنار هم به شما هدیه می‌دهیم تا بهترین نسخه خودتان باشید.
+            پلتفرم جامع سبک زندگی، ارتقای فردی . ما آگاهی را در کنار هم به شما هدیه می‌دهیم تا
+            بهترین نسخه خودتان باشید.
           </p>
           <div class="d-flex gap-2 social-links">
             <a href="#" class="btn-social" title="اینستاگرام" aria-label="Instagram">
@@ -39,14 +39,6 @@
               <router-link to="/" class="footer-link">صفحه اصلی</router-link>
             </li>
             <li class="mb-2">
-              <router-link to="/products/upper-body" class="footer-link">پوشاک بالاتنه</router-link>
-            </li>
-            <li class="mb-2">
-              <router-link to="/products/bottom-body" class="footer-link"
-                >پوشاک پایین‌تنه</router-link
-              >
-            </li>
-            <li class="mb-2">
               <a href="#articles-section" class="footer-link">مجله و مقالات</a>
             </li>
           </ul>
@@ -59,16 +51,6 @@
             <li class="mb-2">
               <router-link to="/article/what-is-sadness" class="footer-link"
                 >ناراحتی چیست و چرا رخ می‌دهد؟</router-link
-              >
-            </li>
-            <li class="mb-2">
-              <router-link to="/article/exercise-and-sadness" class="footer-link"
-                >ورزش و سلامت روان</router-link
-              >
-            </li>
-            <li class="mb-2">
-              <router-link to="/article/enjoyable-activities" class="footer-link"
-                >فعال‌سازی رفتاری و نشاط</router-link
               >
             </li>
             <li class="mb-2">
