@@ -13,7 +13,7 @@ export const useArticleStore = defineStore('articles', () => {
       title: 'ناراحتی چیست؟',
       description:
         'اگر احساس ناراحتی درونت را گرفته اصلا نگران نباش؛ شناخت احساسات اولین قدم رهایی است.',
-      image: '/images/article1.jpg',
+      image: import.meta.env.BASE_URL + 'images/article1.jpg',
       category: 'روانشناسی',
       readTime: '9 دقیقه',
       content: `
@@ -262,7 +262,7 @@ export const useArticleStore = defineStore('articles', () => {
       slug: 'reasons-for-sadness',
       title: 'علت ناراحتی‌ها چیست؟',
       description: 'علت این ناراحتی‌ها چیه؟ ما چند نوع ناراحتی و غم داریم و چطور با آن مواجه شویم؟',
-      image: '/images/article2.jpg',
+      image: import.meta.env.BASE_URL + 'images/article2.jpg',
       category: 'روانشناسی',
       readTime: '7 دقیقه',
       content: `
@@ -433,7 +433,7 @@ export const useArticleStore = defineStore('articles', () => {
       slug: 'sport-and-health',
       title: 'ورزش و سلامتی',
       description: 'ورزش یکی از بهترین راهکارهای اثبات‌شده برای بهبود خلق‌وخو و کاهش استرس است.',
-      image: '/images/article3.jpg',
+      image: import.meta.env.BASE_URL + 'images/article3.jpg',
       category: 'سلامتی',
       readTime: '6 دقیقه',
       content: `
@@ -567,7 +567,7 @@ export const useArticleStore = defineStore('articles', () => {
       title: 'راه مقابله با ناراحتی',
       description:
         'انجام فعالیت‌های لذت‌بخش و تکنیک‌های ذهن‌آگاهی یکی از بهترین روش‌های بهبود است.',
-      image: '/images/article4.png',
+      image: import.meta.env.BASE_URL + 'images/article4.png',
       category: 'روانشناسی',
       readTime: '7 دقیقه',
       content: `
@@ -762,7 +762,7 @@ export const useArticleStore = defineStore('articles', () => {
       title: 'صحبت کردن با دوست',
       description:
         'یکی از بهترین راه‌ها برای بازیابی انرژی و خوشحالی، وقت گذراندن با یک رفیق واقعی است.',
-      image: '/images/article5.jpg',
+      image: import.meta.env.BASE_URL + 'images/article5.jpg',
       category: 'روابط',
       readTime: '5 دقیقه',
       content: `
@@ -932,7 +932,7 @@ export const useArticleStore = defineStore('articles', () => {
       title: 'داستان تیم برنرز-لی، پدر وب',
       description:
         'یادآوری از قدرت اراده یک انسان، برای تبدیل یک رویا به واقعیتی ملموس برای تمام جهان.',
-      image: '/images/article6.jpg',
+      image: import.meta.env.BASE_URL + 'images/article6.jpg',
       category: 'فناوری',
       readTime: '۶ دقیقه',
       content: `
